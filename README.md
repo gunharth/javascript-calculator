@@ -22,7 +22,7 @@ npm start
 ```
 
 ## Development
-### Frontend
+## Frontend
 
 cd into the directory web
 ```
