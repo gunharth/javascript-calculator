@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web:
+    image: simahdri/my-node-web:latest  # Add the correct image name here
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+
+  api:
+    image: simahdri/my-node-apt:latest
+    ports:
+      - "3001:3001"
